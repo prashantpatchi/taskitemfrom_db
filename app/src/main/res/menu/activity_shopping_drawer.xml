@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Offer"
+            android:icon="@drawable/ic_local_offer_black_24dp"
+            android:title="Offer" />
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/ic_important_devices_black_24dp"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/nav_Lifestyle"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="Lifestyle" />
+        <item
+            android:id="@+id/nav_home_appliance"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Home Appliances" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Books" />
+        <item
+            android:id="@+id/nav_more"
+            android:icon="@drawable/ic_more_black_24dp"
+            android:title="More" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    <item android:title="My Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_order"
+                android:icon="@drawable/ic_card_travel_black_24dp"
+                android:title="My Order" />
+            <item
+                android:id="@+id/nav_cart"
+                android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+                android:title="My Cart" />
+            <item
+                android:id="@+id/nav_wishlist"
+                android:icon="@drawable/ic_shopping_basket_black_24dp"
+                android:title="My Wishlist" />
+            <item
+                android:id="@+id/nav_reward"
+                android:icon="@drawable/ic_card_giftcard_black_24dp"
+                android:title="My Reward" />
+        </menu>
+    </item>
+
+</menu>
